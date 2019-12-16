@@ -7,7 +7,7 @@ function ListMovi(props) {
 
 
 
-  return props.loading ? <h1>Is loading </h1> : (
+  return (
     <div className="filmdesc">
 
       <div className="imgslien">

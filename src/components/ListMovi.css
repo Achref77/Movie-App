@@ -76,3 +76,9 @@ p{
   position: absolute;
   left:25px
 }
+.spinner-border{
+  margin-right: 100px;
+}
+.sr-only{
+  margin-right: 100px;
+}

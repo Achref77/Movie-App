@@ -96,7 +96,9 @@ class app extends React.Component {
     }, 3000)
   }
   render() {
-    return (
+    return this.state.isloading ?<div className="spinner-border" role="status" >
+    <span className="sr-only">Loading...</span>
+  </div>: (
       <div className="App">
         {/* <Cycle/> */}
         <Nav rate={this.state.rate} changeRating={this.changeRate} filterbyname={(x) => { this.setState({ filterbyname: x }) }} />
