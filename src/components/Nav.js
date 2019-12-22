@@ -9,6 +9,7 @@ const Nav = ({ filterbyname, changeRating , rate }) => {
         <div className="navMovi">
             <img className="logo" src={logo} />
             <input type="search" id="search" placeholder="Search..." onChange={(e) => filterbyname(e.target.value)} />
+            
             <StarRatings
                 rating={rate}
                 starDimension={'15px'}
